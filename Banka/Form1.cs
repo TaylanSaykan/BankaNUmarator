@@ -87,7 +87,9 @@ namespace Banka
 
         private void btnGise_Click(object sender, EventArgs e)
         {
-            Form2 giseForm = new Form2(lbMusteriler);
+
+
+            GiseForm giseForm = new GiseForm();
             giseForm.Show();
 
 
