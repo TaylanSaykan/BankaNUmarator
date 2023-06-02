@@ -84,5 +84,13 @@ namespace Banka
                 MessageBox.Show(detaylar, "Müþteri Detaylarý");
             }
         }
+
+        private void btnGise_Click(object sender, EventArgs e)
+        {
+            Form2 giseForm = new Form2(lbMusteriler);
+            giseForm.Show();
+
+
+        }
     }
 }

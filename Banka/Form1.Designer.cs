@@ -37,6 +37,7 @@
             label3 = new Label();
             lbMusteriler = new ListBox();
             btnMusteriDetay = new Button();
+            btnGise = new Button();
             SuspendLayout();
             // 
             // btnSiraAl
@@ -109,7 +110,7 @@
             // 
             // btnMusteriDetay
             // 
-            btnMusteriDetay.Location = new Point(12, 405);
+            btnMusteriDetay.Location = new Point(12, 377);
             btnMusteriDetay.Name = "btnMusteriDetay";
             btnMusteriDetay.Size = new Size(244, 29);
             btnMusteriDetay.TabIndex = 8;
@@ -117,11 +118,22 @@
             btnMusteriDetay.UseVisualStyleBackColor = true;
             btnMusteriDetay.Click += btnMusteriDetay_Click;
             // 
+            // btnGise
+            // 
+            btnGise.Location = new Point(12, 412);
+            btnGise.Name = "btnGise";
+            btnGise.Size = new Size(244, 29);
+            btnGise.TabIndex = 9;
+            btnGise.Text = "GİŞE   ➜";
+            btnGise.UseVisualStyleBackColor = true;
+            btnGise.Click += btnGise_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnGise);
             Controls.Add(btnMusteriDetay);
             Controls.Add(lbMusteriler);
             Controls.Add(label3);
@@ -148,5 +160,6 @@
         private Label label3;
         private ListBox lbMusteriler;
         private Button btnMusteriDetay;
+        private Button btnGise;
     }
 }
